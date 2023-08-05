@@ -37,8 +37,8 @@ export const cards = [
     },
     {
         id: 6,
-        title: "",
-        desc: "",
+        title: "Social Media",
+        desc: "Reach more customers",
         img: "https://fiverr-res.cloudinary.com/q_auto,f_auto,w_255,dpr_1.0/v1/attachments/generic_asset/asset/7ead3b2056987e6fa3aad69cf897a50b-1690383161249/social-2x.png"
     },
     {
