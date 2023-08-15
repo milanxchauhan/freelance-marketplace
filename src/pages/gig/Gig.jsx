@@ -11,7 +11,7 @@ const Gig = () => {
                     <h1>I will create AI generated art for you</h1>
 
                     <div className="user">
-                        <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                        <img className='pp' src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
                         <span>John Doe</span>
                         <div className="stars">
                             <img src="/img/star.png" alt="" />
@@ -22,7 +22,7 @@ const Gig = () => {
                             <span>5</span>
                         </div>
                     </div>
-                    <Slider slideToShow={1} arrowsScroll={1}>
+                    <Slider slideToShow={1} arrowsScroll={1} className="slider">
                         <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/298071852/original/71cb915bb64cad4ebc3778bd89ed83e3221802ab/create-unique-characters-art-using-midjourney-ai.jpg" alt="" />
                         <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/323215516/original/7190f9688e56f6d71fd95c926f2406046974a449/create-amazing-ai-artwork-images-using-midjourney-ai.png" alt="" />
                         <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/323215516/original/f95a785ed214a35fb7a4a7ff5612590e5c62cf59/create-amazing-ai-artwork-images-using-midjourney-ai.png" alt="" />
@@ -85,6 +85,98 @@ const Gig = () => {
                     </div>
                     <div className="reviews">
                         <h2>Reviews</h2>
+                        <div className="item">
+                            <div className="user">
+                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <div className="info">
+                                    <span>John Doe</span>
+                                    <div className="country">
+                                        <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
+                                        <span>United States</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="stars">
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <span>5</span>
+                            </div>
+                            <p>
+                            This seller has exactly the right skills to create an AI male model, suitable for a book cover! He does what he says he{"'"}s going to do and charges fairly. I highly recommend this seller and will use him again.
+                            </p>
+                            <div className="helpful">
+                                <span>Helpful?</span>
+                                <img src="/img/like.jpg" alt="" />
+                                <span>Yes</span>
+                                <img src="/img/dislike.jpg" alt="" />
+                                <span>No</span>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="item">
+                            <div className="user">
+                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <div className="info">
+                                    <span>John Doe</span>
+                                    <div className="country">
+                                        <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
+                                        <span>United States</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="stars">
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <span>5</span>
+                            </div>
+                            <p>
+                            This seller has exactly the right skills to create an AI male model, suitable for a book cover! He does what he says he{"'"}s going to do and charges fairly. I highly recommend this seller and will use him again.
+                            </p>
+                            <div className="helpful">
+                                <span>Helpful?</span>
+                                <img src="/img/like.jpg" alt="" />
+                                <span>Yes</span>
+                                <img src="/img/dislike.jpg" alt="" />
+                                <span>No</span>
+                            </div>
+                        </div>
+                        <hr />
+                        <div className="item">
+                            <div className="user">
+                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <div className="info">
+                                    <span>John Doe</span>
+                                    <div className="country">
+                                        <img src="https://fiverr-dev-res.cloudinary.com/general_assets/flags/1f1fa-1f1f8.png" alt="" />
+                                        <span>United States</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="stars">
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <img src="/img/star.png" alt="" />
+                                    <span>5</span>
+                            </div>
+                            <p>
+                            This seller has exactly the right skills to create an AI male model, suitable for a book cover! He does what he says he{"'"}s going to do and charges fairly. I highly recommend this seller and will use him again.
+                            </p>
+                            <div className="helpful">
+                                <span>Helpful?</span>
+                                <img src="/img/like.jpg" alt="" />
+                                <span>Yes</span>
+                                <img src="/img/dislike.jpg" alt="" />
+                                <span>No</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="right"></div>
