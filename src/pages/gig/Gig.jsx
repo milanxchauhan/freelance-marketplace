@@ -87,7 +87,7 @@ const Gig = () => {
                         <h2>Reviews</h2>
                         <div className="item">
                             <div className="user">
-                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <img className='pp' src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
                                 <div className="info">
                                     <span>John Doe</span>
                                     <div className="country">
@@ -118,7 +118,7 @@ const Gig = () => {
                         <hr />
                         <div className="item">
                             <div className="user">
-                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <img className='pp' src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
                                 <div className="info">
                                     <span>John Doe</span>
                                     <div className="country">
@@ -149,7 +149,7 @@ const Gig = () => {
                         <hr />
                         <div className="item">
                             <div className="user">
-                                <img src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
+                                <img className='pp' src="https://fiverr-res.cloudinary.com/t_profile_original,q_auto,f_auto/attachments/profile/photo/428380b5a57fe88deab8c015ce9d490a-1632824335910/29d2c14d-3036-47b2-ac7a-5434ac000b53.png" alt="" />
                                 <div className="info">
                                     <span>John Doe</span>
                                     <div className="country">
