@@ -10,7 +10,7 @@ const Messages = () => {
         <div className='messages'>
             <div className="container">
                 <div className="title">
-                    <h1>Orders</h1>
+                    <h1>Messages</h1>
                 </div>
                 <table>
                     <tr>
