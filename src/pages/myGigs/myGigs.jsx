@@ -2,7 +2,7 @@ import React from 'react'
 import "./MyGigs.scss"
 import { Link } from 'react-router-dom'
 
-const myGigs = () => {
+const MyGigs = () => {
     return (
         <div className='myGigs'>
             <div className="container">
@@ -80,4 +80,4 @@ const myGigs = () => {
     )
 }
 
-export default myGigs
+export default MyGigs
